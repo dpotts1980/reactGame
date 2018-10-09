@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar/Navbar.js';
-import Modal from './components/Modal/Modal.js';
-import CardsClick from './components/CardsClick/CardsClick.js';
+//import Navbar from './components/Navbar/Navbar.js';
+//import Modal from './components/Modal/Modal.js';
+//import CardsClick from './components/CardsClick/CardsClick.js';
 import cards from './cards.json';
 
 class App extends Component {
