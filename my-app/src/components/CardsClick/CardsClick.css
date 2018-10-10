@@ -1,8 +1,15 @@
-.card.img-container{
-    border: 1px solid black;
+ .card.img-container{
+    border: 1px solid gray;
     padding: 20px;
 }
 .card.img-container > img {
     width: 100px;
     height: auto;
-}
+    background: #6CADDC;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+} 
+ 

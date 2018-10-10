@@ -6,9 +6,6 @@ import './CardsClick.css';
 // 	props.clickedBird(props.id);
 // }
 
-function Bla(name, age){
-	console.log(name)
-}
 
 const CardClick = props => (
 	<div className="card img-container">
@@ -19,4 +16,4 @@ const CardClick = props => (
 )
 
 
-export default CardClick
+export default CardClick;
