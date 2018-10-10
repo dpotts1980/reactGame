@@ -1,0 +1,8 @@
+.card.img-container{
+    border: 1px solid black;
+    padding: 20px;
+}
+.card.img-container > img {
+    width: 100px;
+    height: auto;
+}
