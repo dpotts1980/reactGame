@@ -5,7 +5,7 @@ import './App.css';
 //import Modal from './components/Modal/Modal.js';
 import CardsClick from './components/CardsClick';
 import cards from './cards.json';
-import Modal from './components/modal';
+import Modal from './components/Modal';
 
 class App extends Component {
   state = {
@@ -26,17 +26,17 @@ class App extends Component {
     );
   }
 
-  render() {
+/*   render() {
     return (
       <div className="App">
         {this.state.cards.map( card => (
-          <Modal image={card.image} /* onClick={handleClickEvent()} */>{card.name}</Modal> 
+          <Modal image={card.image} >{card.name}</Modal> 
         )
       )}
      
       </div>
     );
-  }
+  } */
 }//class app extends Component ends here
 
 export default App;
